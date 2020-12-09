@@ -1,9 +1,16 @@
 #Just learning to use zip
-styles = ['Red', 'Blue', 'Smily']
-beasts  = ['Dragon', 'Basilisc', 'Flower']
-how_many = [1,2,3]
+styles = ['Red', 'Blue', 'Winged']
+beasts  = ['Dragon', 'Basilisc', 'Leopard']
+#how_many = [1,2,3]
 
-full_beasts = zip(styles, beasts, how_many)
+#full_beasts = zip(styles, beasts, how_many)
+full_beasts = zip(styles, beasts)
 
 list_beasts = list(full_beasts)
 print(list_beasts)
+
+#Append - Nested List
+list_beasts.append(('Dark', 'Elf'))
+print(list_beasts)
+
+print(list_beasts[3])
