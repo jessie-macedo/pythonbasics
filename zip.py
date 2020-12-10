@@ -14,3 +14,7 @@ list_beasts.append(('Dark', 'Elf'))
 print(list_beasts)
 
 print(list_beasts[3])
+
+##Testing some usesof lists
+print("First two elements of the list")
+print(list_beasts[:2])
