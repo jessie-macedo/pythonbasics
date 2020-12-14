@@ -10,3 +10,11 @@ for species in fantasy_list:
     if species == "basilisc":
         print("They have a basilisc!")
         break
+
+#Using continue to avoid some numbers
+
+numbers_list = [1, 2, 9, -3, -5, 6, -9, 7, -25, 30]
+for number in numbers_list:
+    if number < 0:
+        continue
+    print(number)
