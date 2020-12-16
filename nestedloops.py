@@ -8,7 +8,7 @@ for kind in Nested_list:
         count += many
         print(count)
 print(count)
-
+#Same thing - husband way
 count = 0
 for kind in Nested_list:
     for many in kind:
