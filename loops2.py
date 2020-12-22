@@ -25,3 +25,4 @@ for number in numbers_list:
     if number < 0:
         continue
     print(number)
+

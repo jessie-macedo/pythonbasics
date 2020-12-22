@@ -41,3 +41,4 @@ while(dragons < 5):
     dragons += 1
 else:
     print("We have seen", dragons,"dragons in a day, it´s bad news, just take cover...")
+
